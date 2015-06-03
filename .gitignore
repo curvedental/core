@@ -7,8 +7,12 @@
 /app/phpunit.xml
 /phpunit.xml
 
+# Jetbrains
+.idea/*
+
 # Build data
 /build/
 
-# Composer PHAR
+# Composer
 /composer.phar
+/composer.lock

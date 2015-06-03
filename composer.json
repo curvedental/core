@@ -1,0 +1,24 @@
+{
+    "name": "curvedental/core",
+    "description": "Core PHP libraries",
+    "type": "library",
+    "homepage": "http://www.curvedental.com",
+    "license": "Apache 2.0",
+    "support": {
+        "issues": "https://github.com/curvedental/core/issues",
+        "source": "https://github.com/curvedental/core"
+    },
+    "autoload": {
+        "psr-4": {
+            "Curve\\Core\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.6",
+        "squizlabs/php_codesniffer": "^2.3",
+        "phpmd/phpmd": "^2.2"
+    }
+}
